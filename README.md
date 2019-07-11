@@ -12,7 +12,7 @@ allprojects {
 }
 ```
 Add the dependency:
-```java
+```groovy
 dependencies {
 	implementation 'com.github.rashidafzaal:Upload-To-Amazon-Library:1.0'
 }
