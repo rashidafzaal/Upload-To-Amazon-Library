@@ -17,3 +17,7 @@ dependencies {
 	implementation 'com.github.rashidafzaal:Upload-To-Amazon-Library:1.0'
 }
 ```
+## Do in Your Activity:
+
+1. Implement the interface *AmazonResponse* 
+2. Override the Method *processFinish(String responseCode)*
