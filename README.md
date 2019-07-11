@@ -19,7 +19,7 @@ dependencies {
 ```
 ## Do in Your Activity:
 
-1. Implement the interface <b>AmazonResponse*</b>
+1. Implement the interface <b>AmazonResponse</b>
 2. Override the Method <b>processFinish(String responseCode)</b>
 3. Do this code on Button click/anywhere you want
 
