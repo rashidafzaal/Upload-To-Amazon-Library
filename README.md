@@ -12,7 +12,7 @@ allprojects {
 }
 ```
 Add the dependency:
-```java
+```android
 dependencies {
 	implementation 'com.github.rashidafzaal:Upload-To-Amazon-Library:1.0'
 }
@@ -23,7 +23,7 @@ dependencies {
 2. Override the Method <b>processFinish(String responseCode)</b>
 3. Do this code on Button click/anywhere you want
 
-```java
+```android
 UploadOnAmazon upload = new UploadOnAmazon(bitmap, "", 65);
 upload.res = this;
 upload.execute();
