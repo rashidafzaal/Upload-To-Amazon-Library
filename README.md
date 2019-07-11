@@ -21,7 +21,7 @@ dependencies {
 
 1. Implement the interface <b>AmazonResponse*</b>
 2. Override the Method <b>processFinish(String responseCode)</b>
-3. Do this Code on Button click / anywhere you want
+3. Do this code on Button click/anywhere you want
 
 ```
 UploadOnAmazon upload = new UploadOnAmazon(bitmap, "", 65);
