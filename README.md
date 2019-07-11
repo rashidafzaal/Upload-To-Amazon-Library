@@ -19,5 +19,19 @@ dependencies {
 ```
 ## Do in Your Activity:
 
-1. Implement the interface *AmazonResponse* 
-2. Override the Method *processFinish(String responseCode)*
+1. Implement the interface <b>AmazonResponse*</b>
+2. Override the Method <b>processFinish(String responseCode)</b>
+3. Do this Code on Button click / anywhere you want
+
+```
+UploadOnAmazon upload = new UploadOnAmazon(bitmap, "", 65);
+upload.res = this;
+upload.execute();
+
+//1. pass bitmap
+//2. pass PreSignedUrl
+//3. pass quality (0 means the lowest, 100 means the highest)
+```
+
+4. You will get response Code in method (<b>processFinish(String responseCode)</b>), once uploading finish.
+5.
