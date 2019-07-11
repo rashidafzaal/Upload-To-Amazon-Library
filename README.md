@@ -3,7 +3,7 @@ This library lets you upload the image on Amazon Server using PreSignedUrl with 
 
 ## Gradle Setup:
 Add it in your root build.gradle at the end of repositories:
-```
+```java
 allprojects {
 	repositories {
 		...
@@ -12,7 +12,7 @@ allprojects {
 }
 ```
 Add the dependency:
-```
+```java
 dependencies {
 	implementation 'com.github.rashidafzaal:Upload-To-Amazon-Library:1.0'
 }
@@ -31,6 +31,6 @@ upload.execute();
 //1. pass bitmap
 //2. pass PreSignedUrl
 //3. pass quality (0 means the lowest, 100 means the highest)
-```java
+```
 
 4. You will get response Code in method <b>processFinish(String responseCode)</b>, once uploading finish.
