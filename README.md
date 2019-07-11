@@ -23,7 +23,7 @@ dependencies {
 2. Override the Method <b>processFinish(String responseCode)</b>
 3. Do this code on Button click/anywhere you want
 
-```
+```java
 UploadOnAmazon upload = new UploadOnAmazon(bitmap, "", 65);
 upload.res = this;
 upload.execute();
@@ -31,6 +31,6 @@ upload.execute();
 //1. pass bitmap
 //2. pass PreSignedUrl
 //3. pass quality (0 means the lowest, 100 means the highest)
-```
+```java
 
 4. You will get response Code in method <b>processFinish(String responseCode)</b>, once uploading finish.
