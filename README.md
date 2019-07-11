@@ -33,5 +33,4 @@ upload.execute();
 //3. pass quality (0 means the lowest, 100 means the highest)
 ```
 
-4. You will get response Code in method (<b>processFinish(String responseCode)</b>), once uploading finish.
-5.
+4. You will get response Code in method <b>processFinish(String responseCode)</b>, once uploading finish.
